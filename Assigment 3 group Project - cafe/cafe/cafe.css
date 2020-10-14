@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: 2px solid black; 
+}
+header{
+    border-bottom: 2px solid blue;
+}
