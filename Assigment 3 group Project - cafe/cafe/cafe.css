@@ -1,15 +1,21 @@
 body{
     text-align: center;
-    margin-right: 5%;
-    margin-left: 5%;
-    border: 2px solid black; 
+    margin-right: 15%;
+    margin-left: 15%;
+    border: 3px solid black; 
+    border-radius: 25px;
 }
-header{
-    border-bottom: 2px solid blue;
+hr{
+    width: 90%;
+    height: 3px;
+    background-color: #00FFFF;
+    border-radius: 25px;
 }
-#order{
-    width: 500px;
-    height: 200px;
+textarea{
+    resize: none;
+    width: 80%;
+    min-height: 200px;
+    max-height: 400px;
 }
 .dot {
     cursor: pointer;
