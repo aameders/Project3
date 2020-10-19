@@ -24,11 +24,18 @@ for( let i = 0; i < carLength; i++){
 
 }
 
-function changePic(el){
-    el.srcElement.currentSrc = "./images/biscotti_info.jpg";
-    // console.log(el.srcElement.currentSrc)
-}
- 
+$(function() {
+    $(".carousel")
+        .mouseover(function() { 
+            var src = $(this).attr("src").match(/[^\.]+/) + "_info.jpg";
+            $(this).attr("src", src);
+        })
+        .mouseout(function() {
+            var src = $(this).attr("src").replace("_info.jpg", ".jpg");
+            $(this).attr("src", src);
+        });
+});
+
 
 function clickPic(el){
     console.log(el.srcElement.id)
