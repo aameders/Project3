@@ -28,7 +28,7 @@ function changePic(el){
     el.srcElement.currentSrc = "./images/biscotti_info.jpg";
     // console.log(el.srcElement.currentSrc)
 }
-
+ 
 
 function clickPic(el){
     console.log(el.srcElement.id)
