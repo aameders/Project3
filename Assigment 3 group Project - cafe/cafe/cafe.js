@@ -6,7 +6,13 @@ const prices = {
     "coffee": 2.99,
     "espresso": 2.99,
     "latte": 2.99,
-    "scone": 2.99
+    "scone": 2.99,
+    "applepie" : 4.25,
+    "bagel" : 1.95,
+    "cannoli" : 1.95,
+    "cheesecake" : 3.55,
+    "frenchbread" : 2.45,
+    "smoothie" : 1.95
 }
 
 const items = []
@@ -22,6 +28,7 @@ function changePic(el){
     el.srcElement.currentSrc = "./images/biscotti_info.jpg";
     // console.log(el.srcElement.currentSrc)
 }
+
 
 function clickPic(el){
     console.log(el.srcElement.id)
@@ -60,3 +67,9 @@ function calcTax(total){
 
 
 $("#clear_order")[0].addEventListener("click",clearOrder);
+
+function show(shown, hidden) {
+    document.getElementById(shown).style.display='block';
+    document.getElementById(hidden).style.display='none';
+    return false;
+}
