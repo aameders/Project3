@@ -16,6 +16,16 @@ textarea{
     width: 80%;
     min-height: 200px;
     max-height: 400px;
+    border:1px solid black;
+    border-radius: 25px;
+}
+#place_order, #clear_order{
+    min-width: 10%;
+    max-width: auto;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    background-color:  #81ffff;
 }
 .dot {
     cursor: pointer;
