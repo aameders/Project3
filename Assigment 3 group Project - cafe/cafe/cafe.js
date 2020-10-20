@@ -1,12 +1,12 @@
 const carousel = $(".carousel");
 const carLength = carousel.length;
 const prices = { 
-    "biscotti": 2.99,
-    "cappuccino": 2.99,
-    "coffee": 2.99,
-    "espresso": 2.99,
-    "latte": 2.99,
-    "scone": 2.99,
+    "biscotti": 1.95,
+    "cappuccino": 3.45,
+    "coffee": 1.75,
+    "espresso": 1.95,
+    "latte": 2.95,
+    "scone": 2.95,
     "applepie" : 4.25,
     "bagel" : 1.95,
     "cannoli" : 1.95,
@@ -24,11 +24,18 @@ for( let i = 0; i < carLength; i++){
 
 }
 
-function changePic(el){
-    el.srcElement.currentSrc = "./images/biscotti_info.jpg";
-    // console.log(el.srcElement.currentSrc)
-}
- 
+$(function() {
+    $(".carousel")
+        .mouseover(function() { 
+            var src = $(this).attr("src").match(/[^\.]+/) + "_info.jpg";
+            $(this).attr("src", src);
+        })
+        .mouseout(function() {
+            var src = $(this).attr("src").replace("_info.jpg", ".jpg");
+            $(this).attr("src", src);
+        });
+});
+
 
 function clickPic(el){
     console.log(el.srcElement.id)
