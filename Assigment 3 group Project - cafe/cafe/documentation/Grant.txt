@@ -1,0 +1,4 @@
+>Added 6 photos + _info photos
+>Added new items to array, css for photos
+>Created carousel
+>Added hover function (JS) and CSS <a> hover mouse effect
