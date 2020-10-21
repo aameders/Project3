@@ -15,7 +15,7 @@ const prices = {
     "smoothie" : 1.95
 }
 
-localStorage.setItem('Sum', 0)
+localStorage.setItem('Sum', 0);
 
 var items = []
 
@@ -63,8 +63,8 @@ function calcPrice(){
     items.forEach(x => sum +=x);
     var tax = calcTax(sum);
     sum = tax + sum;
-    var sum_string = `Total: \t$${Math.round(sum.toFixed(2)*100)/100}`;
-    var tax_string = `Tax: \t$${Math.round(tax.toFixed(2)*100)/100}`;
+    var sum_string = `Total: \t$${(Math.round(sum*100)/100).toFixed(2)}`;
+    var tax_string = `Tax: \t$${(Math.round(tax*100)/100).toFixed(2)}`;
     $("#tax")[0].innerText = tax_string;
     $("#total")[0].innerText = sum_string;
 
