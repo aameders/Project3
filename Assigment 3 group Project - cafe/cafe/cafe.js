@@ -63,8 +63,9 @@ function calcPrice(){
     $("#tax")[0].innerText = tax_string;
     $("#total")[0].innerText = sum_string;
 
-    localStorage.setItem('Tax', tax_string)
-    localStorage.setItem('Sum', sum_string)
+    localStorage.setItem('Tax', tax_string);
+    localStorage.setItem('Sum', sum_string);
+    
 
 }
 
