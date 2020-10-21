@@ -61,8 +61,14 @@ function calcPrice(){
     items.forEach(x => sum +=x);
     var tax = calcTax(sum);
     sum = tax + sum;
-    $("#tax")[0].innerText = `Tax: \t$${Math.round(tax.toFixed(2)*100)/100}`;
-    $("#total")[0].innerText = `Total:\t$${Math.round(sum.toFixed(2)*100)/100}`;
+    var sum_string = `Total: \t$${Math.round(sum.toFixed(2)*100)/100}`;
+    var tax_string = `Tax: \t$${Math.round(tax.toFixed(2)*100)/100}`;
+    $("#tax")[0].innerText = tax_string;
+    $("#total")[0].innerText = sum_string;
+
+    localStorage.setItem('Tax', tax_string);
+    localStorage.setItem('Sum', sum_string);
+    
 
 }
 
