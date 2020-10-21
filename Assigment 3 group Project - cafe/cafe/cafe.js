@@ -68,8 +68,6 @@ function calcPrice(){
 
     localStorage.setItem('Tax', tax_string);
     localStorage.setItem('Sum', sum_string);
-    
-
 }
 
 function calcTax(total){
