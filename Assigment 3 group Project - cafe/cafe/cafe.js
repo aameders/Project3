@@ -14,7 +14,9 @@ const prices = {
     "frenchbread" : 2.45,
     "smoothie" : 1.95
 }
- 
+
+localStorage.setItem('Sum', 0)
+
 var items = []
 
 for( let i = 0; i < carLength; i++){
