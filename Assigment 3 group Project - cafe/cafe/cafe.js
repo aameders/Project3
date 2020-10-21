@@ -50,7 +50,10 @@ function addItem(item, price) {
 function clearOrder(){
     console.log("hello")
     $("#order")[0].value = ""
+    $("#tax")[0].innerText = ""
+    $("#total")[0].innerText= ""
     items = []
+    
 }
 
 function calcPrice(){
