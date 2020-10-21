@@ -56,11 +56,13 @@
 					<textarea disabled id="order" name="order" size="6"></textarea>
 					<p id="tax"></p>
 					<p id="total"></p>
-				</section>
-				<section id="buttons">
-					<a href = "checkout.html"><input type="button" name="place_order" id="place_order" value="Place Order"></a>
-					<input type="button" name="clear_order" id="clear_order" value="Clear Order">
-				</section>
+                </section>
+                <form action="checkout.html" method="GET">
+                    <section id="buttons">
+                        <input type="button" name="place_order" id="place_order" value="Place Order">
+                        <input type="button" name="clear_order" id="clear_order" value="Clear Order">
+                    </section>
+                </form>
 			</section>
 		</form>
 	</main>
