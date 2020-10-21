@@ -1,1 +1,3 @@
-10/16/2020 - Addie and I worked together in class to get cafe.js working. achieved 90% of desired functionality
+10/16/2020 - Addie and I worked together in class to get cafe.js working. achieved 90% of desired functionality using Jquery
+
+10/21/2020 - Finished cafe.js functionality, stored total in localStorage, and accessed the total from checkout.js to update checkout.html
