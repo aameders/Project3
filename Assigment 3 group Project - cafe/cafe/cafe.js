@@ -14,14 +14,11 @@ const prices = {
     "frenchbread" : 2.45,
     "smoothie" : 1.95
 }
-
+ 
 const items = []
 
 for( let i = 0; i < carLength; i++){
-    //console.log(carousel[i]);
-    //carousel[i].addEventListener("mouseover", changePic);
     carousel[i].addEventListener("click", clickPic);
-
 }
 
 $(function() {
@@ -41,8 +38,6 @@ function clickPic(el){
     console.log(el.srcElement.id)
     price = prices[el.srcElement.id]
     addItem(el.srcElement.id, price)
-
-    // prices[el.srcElement.id]
 }
 
 function addItem(item, price) {
@@ -63,8 +58,8 @@ function calcPrice(){
     items.forEach(x => sum +=x);
     var tax = calcTax(sum);
     sum = tax + sum;
-    $("#tax")[0].innerText = tax;
-    $("#total")[0].innerText = sum;
+    $("#tax")[0].innerText = `Tax: \t$${Math.round(tax.toFixed(2)*100)/100}`;
+    $("#total")[0].innerText = `Total:\t$${Math.round(sum.toFixed(2)*100)/100}`;
 
 }
 
