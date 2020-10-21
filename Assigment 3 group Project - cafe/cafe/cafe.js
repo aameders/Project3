@@ -15,7 +15,7 @@ const prices = {
     "smoothie" : 1.95
 }
  
-const items = []
+var items = []
 
 for( let i = 0; i < carLength; i++){
     carousel[i].addEventListener("click", clickPic);
