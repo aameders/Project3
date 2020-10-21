@@ -24,7 +24,7 @@ textarea{
     font-family: 'Poppins', sans-serif;
     background-color: whitesmoke;
 }
-#place_order, #clear_order{
+#place_order, #clear_order, #new_order{
     min-width: 10%;
     max-width: auto;
     margin: 2%;
