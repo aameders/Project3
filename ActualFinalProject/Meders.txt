@@ -1,5 +1,0 @@
-Addie Meders contribution:
-- In charge making sure project-artists page had everything it needed
-- Did thumbnails, pictures, glyphcons, badges with numbers, and formatting
-- Did extra credit progress bar and formatted
-- Recieved help from Derric in class
