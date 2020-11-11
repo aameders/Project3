@@ -61,3 +61,15 @@ footer {
 .jumbotron [role] {
    text-shadow: none;
 }
+.carousel-inner > .item > img {
+   width: 100%;
+ }
+ 
+ .container {
+   padding-top: 20px;
+   padding-bottom: 20px;
+ }
+ 
+ .well {
+   margin: 20px 0 0;
+ }
