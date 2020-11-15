@@ -1,0 +1,7 @@
+Imported work from Web1 which has home page mostly done, artists page done, and about page almost done. 
+Google Fonts Grenze Gotish and Mukla used.
+Resarch Van Gogh, Picasso, Vermeer, Botticelli, and da Vinci.
+- 3 Art works and artist info
+
+Research Van Gogh 4 art works and 4 blurbs about art.
+Research Picasso 4 art works and 4 blurbs about art.
