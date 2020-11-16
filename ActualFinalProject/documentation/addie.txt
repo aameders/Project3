@@ -6,3 +6,5 @@ Resarch Van Gogh, Picasso, Vermeer, Botticelli, and da Vinci.
 Research Van Gogh 4 art works and 4 blurbs about art.
 Research Picasso 4 art works and 4 blurbs about art.
 Research Vermeer 5 art works and 5 blurbs about art.
+
+Made Header Transparent in Carousel 1
