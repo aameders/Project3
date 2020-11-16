@@ -1,5 +1,0 @@
--In charge of css/design
--Used a Google Font
--Responsive design by using % instead of px
--Fixed part of clear to clear tax + total
--Made change to place order to navigate html pages with <a> tag
