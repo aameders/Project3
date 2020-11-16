@@ -1,1 +1,0 @@
-$('#total')[0].innerText = localStorage.getItem('Sum')
