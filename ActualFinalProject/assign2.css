@@ -50,6 +50,7 @@ footer {
 
 #mainNavigationRow ul a #carNavigationRow{
     font-family: 'Mukta', sans-serif; 
+    
 }
 
 #carNavigationRow{
@@ -61,9 +62,21 @@ footer {
   border-color:transparent;
   border-width: 0px;
 }
+#carNavigationRow li a {
+   color: white;
+   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+#carNavigationRow li a:hover{
+   color: rgb(221, 221, 221);
+}
 
 #CarLogo{
    color: White;
+   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+   0px 8px 13px rgba(0,0,0,0.1),
+   0px 18px 23px rgba(0,0,0,0.1);
 }
 
 .jumbotron {
@@ -82,4 +95,13 @@ footer {
 }
 .Slides {
    display: none;
+ }
+ .carousel-caption{
+   background: #000000a6;
+ }
+ .carousel-caption h1{
+   text-shadow: 3px 3px 4px #000000;
+ }
+ .carousel-caption p{
+   text-shadow: 3px 3px 4px #000000;
  }
