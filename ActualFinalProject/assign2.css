@@ -94,7 +94,11 @@ footer {
    background-image:none !important;
    filter:none !important;
 }
-.Slides {
+
+ .Slides2 {
+   display: none;
+ }
+ .Slides3 {
    display: none;
  }
  .carousel-caption{
