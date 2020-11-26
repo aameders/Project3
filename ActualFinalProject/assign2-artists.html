@@ -47,16 +47,17 @@
             </div>
 			
 			<div class="col-md-3">
-               <form class="form-inline" role="search" action = "http://www.randyconnolly.com/tests/process.php">
-                  <div class="input-group">
-                     <label class="sr-only" for="search">Search</label>
-                     <input type="text" class="form-control" placeholder="Search" name="search">
-                     <span class="input-group-btn">
-                     <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
-                     </span>
-                  </div>
-               </form> 
-            </div>   <!-- end .navbar --> 
+				<form class="form-inline" role="search" action = "http://www.randyconnolly.com/tests/process.php">
+				   
+				   <div class="input-group">
+					  <label class="sr-only" for="search">Search</label>
+					  <input type="search" id = "searchInfo" class="form-control" placeholder="Search" name="search" value = "">
+					  <span class="input-group-btn">
+					  <button id = "searchButton" class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+					  </span>
+				   </div>
+				</form> 
+			 </div>   <!-- end .navbar -->  
          </div>   <!-- end .row -->        
       </div>  <!-- end .container --> 
    </div>  <!-- end #logoRow --> 
@@ -286,14 +287,6 @@
 </div>
 
 
-
-
-
-
-
-
-
-
 <footer>
    <div class="container">
       <div class="row">
@@ -371,5 +364,7 @@
       </div>
    </div>
 </footer>
+
+<script src = "assign2.js"></script>
   </body>
 </html>

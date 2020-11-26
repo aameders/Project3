@@ -54,14 +54,15 @@
             <div class="col-md-9">
                 <h1 id = "Logo">Art Store</h1> 
             </div>
-            
+
             <div class="col-md-3">
-               <form class="form-inline" role="search" action="http://www.randyconnolly.com/tests/process.php">
+               <form class="form-inline" role="search" action = "http://www.randyconnolly.com/tests/process.php">
+                  
                   <div class="input-group">
                      <label class="sr-only" for="search">Search</label>
-                     <input type="text" class="form-control" placeholder="Search" name="search">
+                     <input type="search" id = "searchInfo" class="form-control" placeholder="Search" name="search" value = "">
                      <span class="input-group-btn">
-                     <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                     <button id = "searchButton" class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
                      </span>
                   </div>
                </form> 
@@ -363,6 +364,7 @@ The painting appears, after cleaning, to be an autograph replica of a picture, t
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+    <script src = "assign2.js"></script>
   
   </body>
 </html>
