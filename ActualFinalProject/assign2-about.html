@@ -108,6 +108,38 @@
 	</div>
 </div>
 
+<div class="container-fluid">
+   <div class="col-xs-6">
+      <form role="form" id="about-form" > <!-- action="http://www.randyconnolly.com/tests/process.php" -->
+   <h4><span class="glyphicon glyphicon-envelope"></span> Record your purchase! </h4>
+   <div class="form-group tight-form-group">
+      <label class="sr-only" for="name">Name</label>
+      <input id="about-name" type="text" class="form-control" name="name" placeholder="Enter name...">
+      <span></span>
+  </div>
+  <div class="form-group tight-form-group">
+   <label class="sr-only" for="email">Email</label>
+   <input id="about-email" type="email" class="form-control" name="email" placeholder="Enter email...">
+   <span></span>
+</div>
+<div class="form-group tight-form-group">
+   <label class="sr-only" for="phone">Phone Number</label>
+   <input id="about-phone" type="phone" class="form-control" name="phonenum" placeholder="Enter phone number...">
+   <span></span>
+</div>
+<div class="form-group tight-form-group">
+   <label class="sr-only" for="purchase">Purchase</label>
+   <input id="about-purchase" type="purchase" class="form-control" name="purchase" placeholder="Enter name of painting purchased...">
+   <span></span>
+</div>
+<button type="button" id="about-submit" class="btn btn-primary btn-block">Submit</button>
+</form>
+
+  </div>
+  <h3 id = "purchase-title">Past Purchases are:</h3>
+<textarea id = "display-past"></textarea>
+</div>
+
 
 
 <footer>
@@ -157,7 +189,6 @@
             </div>  
          </div>     
          <div class="col-md-3">
-
             <h4><span class="glyphicon glyphicon-envelope"></span> Contact us</h4>
             <form role="form" id="footer-form" action="http://www.randyconnolly.com/tests/process.php">
                 <div class="form-group tight-form-group">
@@ -195,7 +226,8 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
    <script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
-   <script src = "assign2.js"></script>
+   <script src = "about.js"></script>
+   <script src = "search.js"></script>
 
 	</body>
 </html>

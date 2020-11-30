@@ -8,3 +8,13 @@ Research Picasso 4 art works and 4 blurbs about art.
 Research Vermeer 5 art works and 5 blurbs about art.
 
 Made Header Transparent in Carousel 1
+
+Made search functional with alerts on pages with search bars. 
+
+Did form on About Page based on James' code from gallery page.
+Added phone regex.
+Added a display button for array of past purchases with a couple past.
+-Added CSS to match rest of pages
+-Decided not to use php page, just directly store information into textarea
+-Submit button instead validates info and then displays name of painting in textarea
+-No Validation of painting except not empty because can name their paintings weird things?
