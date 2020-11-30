@@ -157,22 +157,26 @@
             </div>  
          </div>     
          <div class="col-md-3">
+
             <h4><span class="glyphicon glyphicon-envelope"></span> Contact us</h4>
-            <form role="form" action="http://www.randyconnolly.com/tests/process.php">
-              <div class="form-group tight-form-group">
-                <label class="sr-only" for="name">Name</label>
-                <input type="text" class="form-control" name="email" placeholder="Enter name ...">
-              </div> 
-              <div class="form-group tight-form-group">
-                <label class="sr-only" for="email">Email</label>
-                <input type="email" class="form-control" name="email" placeholder="Enter email ...">
-              </div> 
-              <div class="form-group tight-form-group">
-                <label class="sr-only" for="message">Message</label>
-                <textarea class="form-control" rows="3" placeholder="Enter message ..."></textarea>
-              </div>   
-              <button type="submit" class="btn btn-primary btn-block">Submit</button>
-            </form>  
+            <form role="form" id="footer-form" action="http://www.randyconnolly.com/tests/process.php">
+                <div class="form-group tight-form-group">
+                  <label class="sr-only" for="name">Name</label>
+                  <input id="footer-name" type="text" class="form-control" name="name" placeholder="Enter name ...">
+                  <span></span>
+                </div>
+                <div class="form-group tight-form-group">
+                  <label class="sr-only" for="email">Email</label>
+                  <input id="footer-email" type="email" class="form-control" name="email" placeholder="Enter email ...">
+                  <span></span>
+              </div>
+                <div class="form-group tight-form-group">
+                  <label class="sr-only" for="Message">Message</label>
+                  <textarea class="form-control" rows="3" placeholder="Enter message ..."></textarea>
+                </div>
+                <button type="button" id="foot-submit" class="btn btn-primary btn-block">Submit</button>
+              </form>
+
          </div>
          
       </div>
@@ -196,7 +200,7 @@
 	</body>
 </html>
  
- 
+  
  
  
  

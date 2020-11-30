@@ -248,6 +248,52 @@
     </div>
     <!-- /.carousel -->
 
+    <!-- Gallery Form -->
+    
+    <div class="container-fluid">
+        <div class="col-xs-3" ></div>
+        <div class="col-xs-6">
+
+        <h4><span class="glyphicon glyphicon-envelope"></span> Become a Subscriber! </h4>
+            <form role="form" id="gallery-form" action="http://www.randyconnolly.com/tests/process.php">
+            <div class="form-group tight-form-group">
+                <label class="sr-only" for="name">Name</label>
+                <input id="gallery-name" type="text" class="form-control" name="name" placeholder="Enter name ...">
+                <span></span>
+            </div>
+            <div class="form-group tight-form-group">
+                <label class="sr-only" for="email">Email</label>
+                <input id="gallery-email" type="email" class="form-control" name="email" placeholder="Enter email ...">
+                <span></span>
+            </div>
+            <div class="form-group tight-form-group">
+                <label for="interests">Interests: </label>
+                <div>
+                    <input type="checkbox" name="Realism" class="interest-item"> Realism
+                </div>
+                <div>
+                    <input type="checkbox" name="Surrealism" class="interest-item"> Surrealism
+                </div>
+                <div>
+                    <input type="checkbox" name="Impressionism" class="interest-item"> Impressionism
+                </div>
+                <div>
+                    <input type="checkbox" name="PostImpressionism" class="interest-item"> Post-Impressionism
+                </div>
+                <div>
+                    <input type="checkbox" name="Fauvianism" class="interest-item"> Fauvianism
+                </div>
+            </div>
+            <!-- <div class="form-group tight-form-group">
+                <label class="sr-only" for="Message">Message</label>
+                <textarea class="form-control" rows="3" placeholder="Enter message ..."></textarea>
+            </div> -->
+            <button type="button" id="gallery-submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!-- /Gallery Form -->
+
     <footer>
       <div class="container">
         <div class="row">
@@ -296,24 +342,27 @@
             </div>
           </div>
           <div class="col-md-3">
+
             <h4><span class="glyphicon glyphicon-envelope"></span> Contact us</h4>
-            <form role="form" action="http://www.randyconnolly.com/tests/process.php">
+            <form role="form" id="footer-form" action="http://www.randyconnolly.com/tests/process.php">
               <div class="form-group tight-form-group">
                 <label class="sr-only" for="name">Name</label>
-                <input type="text" class="form-control" name="email" placeholder="Enter name ...">
+                <input id="footer-name" type="text" class="form-control" name="name" placeholder="Enter name ...">
+                <span></span>
               </div>
               <div class="form-group tight-form-group">
                 <label class="sr-only" for="email">Email</label>
-                <input type="email" class="form-control" name="email" placeholder="Enter email ...">
-              </div>
+                <input id="footer-email" type="email" class="form-control" name="email" placeholder="Enter email ...">
+                <span></span>
+            </div>
               <div class="form-group tight-form-group">
                 <label class="sr-only" for="Message">Message</label>
                 <textarea class="form-control" rows="3" placeholder="Enter message ..."></textarea>
               </div>
-              <button type="submit" class="btn btn-primary btn-block">Submit</button>
+              <button type="button" id="foot-submit" class="btn btn-primary btn-block">Submit</button>
             </form>
-          </div>
 
+          </div>
         </div>
       </div>
 
@@ -335,7 +384,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+    <script src = "assign2.js"></script>
 
   </body>
 
-</html>
+</html> 

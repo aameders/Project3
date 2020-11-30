@@ -8,4 +8,21 @@
             Used Monet research from WebI and researched 3 works, water lilies, 
             waterloo bridge effects of fog, and women in the garden.
             Finished Klimpt research
-            
+
+
+11-16-20 Gathered research together
+            coordinated with addie and grant to populate the carousels grant had Finished
+            fiinished all research
+            split remaining tasks
+            search bar: addie
+            forms: me
+            tweaks to carousel & filling it with research: Grant
+            cleaned up files
+
+11-29-20 work on forms
+            set up form validation
+            changed submit buttons to type button to allow validation before submission
+            created js code to validity email and name fields for forms
+            created js code to submit properly validated forms
+            created gallery form
+            finished all work on form: project should be complete.
