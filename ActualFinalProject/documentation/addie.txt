@@ -18,3 +18,5 @@ Added a display button for array of past purchases with a couple past.
 -Decided not to use php page, just directly store information into textarea
 -Submit button instead validates info and then displays name of painting in textarea
 -No Validation of painting except not empty because can name their paintings weird things?
+
+Made JS into several pages to prevent errors and lower loading times. 
